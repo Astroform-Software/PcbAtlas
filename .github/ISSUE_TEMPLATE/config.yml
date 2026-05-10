@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PCB Atlas User Guide
+    url: https://www.astroformsoftware.com/docs/
+    about: Read setup, import, viewer, export, and troubleshooting documentation.
+  - name: Format Coverage
+    url: https://www.astroformsoftware.com/docs/qa/format-coverage/
+    about: Check current app and Quick Look support by file format.
+

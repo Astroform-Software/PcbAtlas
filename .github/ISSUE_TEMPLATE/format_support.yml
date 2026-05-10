@@ -1,0 +1,42 @@
+name: Format support request
+description: Request better import, rendering, Quick Look, or export support for a PCB format or vendor output.
+title: "Format: "
+labels: ["format-support", "needs-triage"]
+body:
+  - type: input
+    id: format
+    attributes:
+      label: Format or vendor output
+      placeholder: "Example: Altium ODB++ zip, KiCad 8 project, vendor Gerber package"
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: What do you need PCB Atlas to do with this data?
+      placeholder: "Import as a library document, preview in Quick Look, export a report, compare revisions..."
+    validations:
+      required: true
+  - type: dropdown
+    id: current-result
+    attributes:
+      label: Current result
+      options:
+        - Imports successfully but renders incorrectly
+        - Import fails
+        - Opens but is missing objects/layers
+        - Quick Look fails
+        - Export is missing or incorrect
+        - Not currently supported
+        - I have not tried yet
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Public sample availability
+      description: Can you share a minimal public sample or link vendor documentation? Do not attach confidential files.
+    validations:
+      required: false
+

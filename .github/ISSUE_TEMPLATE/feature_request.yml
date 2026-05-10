@@ -1,0 +1,53 @@
+name: Feature request
+description: Suggest a workflow, viewer, import, export, or collaboration improvement.
+title: "Feature: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+      description: What are you trying to accomplish?
+      placeholder: "Example: I need to compare two board revisions and quickly explain changed nets to a teammate."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would make this workflow better?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives tried
+      description: What do you do today, inside or outside PCB Atlas?
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area
+      options:
+        - Import
+        - Library / revisions
+        - 2D viewer
+        - Workbench / selection
+        - Data / Quick Estimate
+        - 3D viewer
+        - Export / sharing
+        - Quick Look
+        - AI
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add examples, redacted screenshots, or format/workflow details if public-safe.
+    validations:
+      required: false
+

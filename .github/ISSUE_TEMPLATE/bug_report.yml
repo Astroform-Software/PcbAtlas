@@ -1,0 +1,131 @@
+name: Bug report
+description: Report a crash, import failure, rendering issue, export problem, or unexpected behavior.
+title: "Bug: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a PCB Atlas issue. Do not attach confidential PCB files or unredacted screenshots to a public issue.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+      placeholder: "Example: KiCad board imports successfully, but several plated slots are missing in 2D."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact actions from app launch or import.
+      placeholder: |
+        1. Open PCB Atlas.
+        2. Choose Import File.
+        3. Select ...
+        4. Open ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What happened instead? Include copied error text if available.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Import
+        - Library / revisions
+        - 2D viewer
+        - Workbench / selection
+        - Data / Quick Estimate
+        - 3D viewer
+        - Export
+        - Quick Look
+        - AI
+        - Settings
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iPadOS
+        - iOS
+        - macOS
+        - Unknown
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: PCB Atlas version / build
+      placeholder: "Example: 1.0 (42)"
+    validations:
+      required: true
+  - type: input
+    id: os-device
+    attributes:
+      label: OS and device
+      placeholder: "Example: iPadOS 18.4 on iPad Pro M4, or macOS 15.4 on Apple Silicon"
+    validations:
+      required: true
+  - type: dropdown
+    id: input-format
+    attributes:
+      label: Input format
+      options:
+        - KiCad .kicad_pcb
+        - KiCad project/schematic folder
+        - DSN
+        - SES
+        - IPC-2581 XML
+        - ODB++ zip
+        - ODB++ folder
+        - Gerber/Drill package
+        - Quick Look preview/thumbnail
+        - Built-in sample
+        - Not file-related
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: import-path
+    attributes:
+      label: Import or open path
+      options:
+        - Import File
+        - Import Folder
+        - System file association / Open In
+        - Drag and drop
+        - Quick Look
+        - Add revision
+        - Import SES from existing document
+        - Built-in library sample
+        - Not applicable
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Safe attachments or extra context
+      description: Link public samples, attach redacted screenshots, or paste safe Support Bundle text. Do not share confidential board data.
+    validations:
+      required: false
+
