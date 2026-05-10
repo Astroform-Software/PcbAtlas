@@ -20,6 +20,8 @@ Do not upload confidential board files to public issues. If a report requires pr
 
 For direct contact, use the public PCB Atlas email listed on the website: <pcbatlas@astroformsoftware.com>.
 
+For public-safe examples, see [docs/redaction-guide.md](docs/redaction-guide.md).
+
 ## Product Help
 
 - User guide: <https://www.astroformsoftware.com/docs/>

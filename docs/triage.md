@@ -21,6 +21,7 @@ For each new issue:
 - `Export:` for PNG, PDF, source export, converted DSN/KiCad export, or entitlement flow.
 - `Quick Look:` for Finder or Files thumbnails/previews.
 - `Docs:` for website and user guide feedback.
+- `Localization:` for app or docs translation and terminology feedback.
 - `Feature:` for product requests.
 
 ## Priority Hints
@@ -39,6 +40,16 @@ If a user needs to share a private board:
 3. If private transfer is truly required, arrange it outside the public issue.
 4. Never repost confidential file details into the issue.
 
+## Localization Issues
+
+For localization reports:
+
+1. Confirm the locale and exact current text.
+2. Ask where the text appears if the location is unclear.
+3. Prefer terminology that fits PCB design and manufacturing usage.
+4. Keep regional differences visible in the issue rather than flattening them too early.
+5. Link related terminology issues when the same term appears across app and docs.
+
 ## Closing Guidance
 
 Close issues when:
@@ -48,4 +59,3 @@ Close issues when:
 - The behavior is documented and expected.
 - The request is outside PCB Atlas scope.
 - A fix shipped and the user can verify in a named build.
-

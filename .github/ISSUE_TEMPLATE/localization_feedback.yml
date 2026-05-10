@@ -46,4 +46,10 @@ body:
       description: Explain terminology, grammar, tone, regional usage, or PCB/manufacturing convention.
     validations:
       required: false
-
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public sharing check
+      options:
+        - label: Any screenshot or example text I attach is safe to share publicly.
+          required: true

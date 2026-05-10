@@ -11,6 +11,8 @@ PCB Atlas is a local-first PCB review workspace for importing board data, browsi
 - Format coverage: <https://www.astroformsoftware.com/docs/qa/format-coverage/>
 - First launch and import: <https://www.astroformsoftware.com/docs/quick-start/first-launch-and-import/>
 - Five-minute tour: <https://www.astroformsoftware.com/docs/quick-start/five-minute-tour/>
+- Redaction guide: [docs/redaction-guide.md](docs/redaction-guide.md)
+- Localization feedback guide: [docs/localization-guide.md](docs/localization-guide.md)
 
 ## What To Report Here
 
@@ -29,6 +31,8 @@ Please open an issue for:
 PCB files often contain confidential product, customer, supplier, routing, or manufacturing information.
 
 Do not attach private board files, screenshots with sensitive text, full project archives, API keys, license details, customer names, or commercial BOM/pricing data to a public GitHub issue. If a private file is required, describe the issue publicly first and wait for a maintainer to provide a private transfer path.
+
+For examples of safe public reports, see [docs/redaction-guide.md](docs/redaction-guide.md).
 
 ## Before Filing A Bug
 
@@ -70,3 +74,7 @@ For a fast first pass through the app:
 Maintainers may edit titles, labels, or templates to make issues easier to search. We may close duplicates, requests that cannot be reproduced, or reports that require confidential files but do not have a safe reproduction path yet.
 
 For maintainer workflow details, see [docs/triage.md](docs/triage.md).
+
+## Pull Requests
+
+PCB Atlas is closed-source commercial software. This repository does not accept product source-code pull requests. Please use issues for bug reports, documentation corrections, localization feedback, and workflow-level feature requests.

@@ -37,6 +37,8 @@ The best bug report is small, repeatable, and safe to discuss publicly. Include:
 
 If the issue only reproduces with a private board, describe the symptom and data shape without attaching the file. A maintainer can decide whether a private transfer path is needed.
 
+See [docs/redaction-guide.md](docs/redaction-guide.md) for public-safe reporting examples.
+
 ## Localization Feedback
 
 Localization reports are welcome. Please include:
@@ -48,6 +50,8 @@ Localization reports are welcome. Please include:
 - Why the replacement is clearer, more accurate, or more natural.
 
 For PCB terminology, prefer wording that helps engineers and manufacturing users understand the app quickly. If a term has multiple local conventions, mention the region or toolchain where your suggestion is common.
+
+See [docs/localization-guide.md](docs/localization-guide.md) for style preferences and report shape.
 
 ## Maintainer Edits
 

@@ -128,4 +128,10 @@ body:
       description: Link public samples, attach redacted screenshots, or paste safe Support Bundle text. Do not share confidential board data.
     validations:
       required: false
-
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public sharing check
+      options:
+        - label: I have removed confidential board data, private file paths, API keys, license data, and customer/supplier information from this public report.
+          required: true

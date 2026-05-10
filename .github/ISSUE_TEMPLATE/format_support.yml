@@ -39,4 +39,10 @@ body:
       description: Can you share a minimal public sample or link vendor documentation? Do not attach confidential files.
     validations:
       required: false
-
+  - type: checkboxes
+    id: public-safe
+    attributes:
+      label: Public sharing check
+      options:
+        - label: I will only attach public samples or files I am allowed to share publicly.
+          required: true
